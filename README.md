@@ -45,10 +45,13 @@ The final trained model is saved as `model.sav` and can be served through APIs f
 ---
 
 ## 📊 Model Performance
-- **Accuracy:** ~85%  
-- **Precision:** ~81%  
-- **Recall:** ~78%  
-- **F1-Score:** ~79%  
+
+- **Accuracy:** 0.93 (~93%)  
+- **Precision:** 0 → 0.92, 1 → 0.93  
+- **Recall:** 0 → 0.91, 1 → 0.94  
+- **F1-Score:** 0 → 0.92, 1 → 0.94  
+
+The model predicts both "Churn" and "Not Churn" accurately and handles class imbalance well.
 
 *(Values are approximate, update with your actual results)*  
 
